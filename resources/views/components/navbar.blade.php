@@ -18,7 +18,7 @@
                         href="{{ route('paketkelas') }}">Paket Kelas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Tryout UTBK</a>
+                    <a class="nav-link disabled" href="/tryout">Tryout UTBK</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
