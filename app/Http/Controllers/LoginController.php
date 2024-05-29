@@ -27,7 +27,12 @@ class LoginController extends Controller
         ];
 
         if (Auth::attempt($credentials)) {
-            return redirect()->route('home');
+            $user = Auth::user();
+            if ($user->usertype == 'admin') {
+                return redirect()->route('dashboard'); // Redirect to the admin dashboard
+            } else {
+                return redirect()->route('home'); // Redirect to the regular home page
+            }
         } else {
             return redirect()->route('login')->with('failed', 'Email atau Password Salah');
         }

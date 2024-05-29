@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\LoginController;
@@ -39,9 +40,10 @@ Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::get('/signup', [LoginController::class, 'register'])->name('signup')->middleware('guest');
 Route::post('/registerprocess', [LoginController::class, 'registerprocess'])->name('register.process')->middleware('guest');
 
-// Route::prefix(['prefix' => 'admin', 'middleware' => ['auth'], 'as' => 'admin.'])->group(function () {
-
-// });
+Route::group(['middleware' => 'admin'], function () {
+    Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
+    Route::get('/admin/settings', [AdminController::class, 'settings'])->name('settings');
+});
 
 //User Routes
 Route::middleware('auth')->group(function () {
