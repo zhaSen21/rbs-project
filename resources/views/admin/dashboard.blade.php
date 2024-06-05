@@ -594,8 +594,8 @@ License: For each use you must have a valid license purchased only from above li
 										<img class="wd-80 ht-80 rounded-circle" src="https://via.placeholder.com/80x80" alt="">
 									</div>
 									<div class="text-center">
-										<p class="tx-16 fw-bolder">Amiah Burton</p>
-										<p class="tx-12 text-muted">amiahburton@gmail.com</p>
+										<p class="tx-16 fw-bolder">Admin Azhar</p>
+										<p class="tx-12 text-muted">azharlasena21@gmail.com</p>
 									</div>
 								</div>
                 <ul class="list-unstyled p-1">
@@ -930,7 +930,7 @@ License: For each use you must have a valid license purchased only from above li
                     </div>
                     <div class="w-100">
                       <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Amiah Burton</h6>
+                        <h6 class="text-body mb-2">Admin Azhar</h6>
                         <p class="text-muted tx-12">05.49 AM</p>
                       </div>
                       <p class="text-muted tx-13">Nice to meet you</p>

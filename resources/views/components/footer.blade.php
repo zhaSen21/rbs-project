@@ -18,9 +18,7 @@ font-family: Poppins, sans-serif;">
     </div>
     <div class="col-md-3">
         <h5 class="footertitle">Social Media</h5>
-        <li><a href="https://facebook.com">Facebook</a></li>
-        <li><a href="https://twitter.com">Twitter</a></li>
-        <li><a href="https://instagram.com">Instagram</a></li>
+        <li><a href="https://www.instagram.com/rumahbelajarspirit?igsh=MWVndzkwd2Z4ZG5hMw==">Instagram</a></li>
     </div>
 </div>
 <div class="row">

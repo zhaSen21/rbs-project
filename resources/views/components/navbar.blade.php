@@ -18,7 +18,8 @@
                         href="{{ route('paketkelas') }}">Paket Kelas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="/tryout">Tryout UTBK</a>
+                    <a class="nav-link {{ request()->routeIs('pendaftaran') ? 'active' : '' }}"
+                        href="{{ route('pendaftaran') }}">Pendaftaran</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -35,7 +36,7 @@
                             <i class="fa-solid fa-user fa-2xl"></i><!-- User icon -->
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item disabled" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ route('users.show', Auth::id()) }}">Profile</a></li>
                             <li><a class="dropdown-item" href="{{ route('logout') }}">Logout</a></li>
                         </ul>
                     </li>

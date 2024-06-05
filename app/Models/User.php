@@ -19,8 +19,16 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'bio',
+        'image',
+        'tanggal_lahir',
+        'alamat',
+        'asalsekolah',
+        'kelas',
+        'nohp',
         'email',
         'password',
+        'gender',
     ];
 
     /**
@@ -42,4 +50,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function getImageURL(){
+        if($this->image){
+            return url('storage/'.$this->image);
+        }
+        return "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg";
+    }
 }

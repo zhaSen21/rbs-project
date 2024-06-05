@@ -36,6 +36,11 @@ class landingController extends Controller
         return view('landing.about');
     }
 
+    public function pendaftaran(){
+        // return view('pendaftaran');
+        return view('pendaftaranwa');
+    }
+
     /**
      * Show the form for creating a new resource.
      */

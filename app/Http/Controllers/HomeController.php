@@ -36,7 +36,7 @@ class HomeController extends Controller
      */
     public function show(string $id)
     {
-        //
+
     }
 
     /**

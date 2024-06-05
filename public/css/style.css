@@ -1,3 +1,28 @@
+.wrapper {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(142, 203, 255, 1) 100%);
+    min-height: 100vh;
+    /* add this to ensure the wrapper takes up the full height of the page */
+}
+
+.placeholder-custom::placeholder {
+    color: #666;
+    /* adjust the color to your desired value */
+}
+
+.placeholder-custom::-webkit-input-placeholder {
+    color: #666;
+    /* adjust the color to your desired value */
+}
+
+.placeholder-custom::-moz-placeholder {
+    color: #666;
+    /* adjust the color to your desired value */
+}
+
+.lead {
+    font-weight: 400
+}
+
 .bg-overlay {
     background-color: rgba(255, 255, 255, 0.244);
     /* Semi-transparent background */
@@ -77,8 +102,8 @@
 
     font-family: Poppins, sans-serif;
     padding-bottom: 120px;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 56%, rgb(163, 214, 255) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 56%, rgb(163, 214, 255) 100%);
 }
 
 .container.section3con {

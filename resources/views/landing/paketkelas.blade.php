@@ -62,7 +62,7 @@
         <div class="container">
             <h1 class="display-4 section-title">Program Semester</h1>
             <p class="lead" style="font-weight: 600;">Tahun Pelajaran 2023/2024</p>
-            <p class="lead mb-5" style="font-weight: 300;">Persiapan Ulangan Harian, PSTS, PSAS, USBN & Persiapan seleksi
+            <p class="lead mb-5" style="font-weight: 400;">Persiapan Ulangan Harian, PSTS, PSAS, USBN & Persiapan seleksi
                 masuk PTN Favorit</p>
             <div class="row justify-content-center mt-5">
                 <!-- SD Card -->
@@ -104,7 +104,7 @@
                 <!-- SD Card -->
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body bg-danger text-white">
+                        <div class="card-body rounded bg-danger text-white ">
                             <h5 class="card-title">SD</h5>
                             <p class="card-text">
                                 Kelas 4/5/6 <br>
@@ -116,7 +116,7 @@
                 <!-- SMP Card -->
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body bg-primary text-white">
+                        <div class="card-body rounded bg-primary text-white">
                             <h5 class="card-title">SMP</h5>
                             <p class="card-text">
                                 Kelas 7/8/9 <br>
@@ -128,7 +128,7 @@
                 <!-- SMA IPA Card -->
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body bg-secondary text-white">
+                        <div class="card-body rounded bg-secondary text-white">
                             <h5 class="card-title">SMA IPS</h5>
                             <p class="card-text">
                                 Kelas 4/5/6 <br>
@@ -140,7 +140,7 @@
                 <!-- SMA IPS Card -->
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body bg-secondary text-white">
+                        <div class="card-body rounded bg-secondary text-white">
                             <h5 class="card-title">SMA IPA</h5>
                             <p class="card-text">
                                 Kelas 10/11/12 <br>
@@ -152,7 +152,7 @@
                 <!-- UTBK TPS Card -->
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-body bg-secondary text-white">
+                        <div class="card-body rounded bg-secondary text-white">
                             <h5 class="card-title">UTBK TPS</h5>
                             <p class="card-text">
                                 Potensi kognitif <br>

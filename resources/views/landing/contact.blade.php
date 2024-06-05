@@ -34,15 +34,15 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
                         <!-- Interval berfungsi agar gambarnya berganti setiap saat sesuai timer yg ditentukan -->
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+                        <img src="/images/pic1.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).webp" class="d-block w-100"
+                        <img src="/images/pic2.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).webp" class="d-block w-100"
+                        <img src="/images/pic3.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                 </div>
@@ -73,6 +73,9 @@
                     <p class="lead">
                         <i class="fas fa-location-dot"></i> Desa Depokrejo RT 02/ RW 01 Kec. Kebumen Kab. Kebumen
                     </p>
+                    <p class="lead">
+                        <i class="fas fa-location-dot"></i> JL. Deresan 2 Caturtunggal, Depok. Sleman
+                    </p>
                     <p class="lead mt-4" style="color: #F25700; font-weight: 600;">
                         <a href="https://api.whatsapp.com/send?phone=6287837816887" target="_blank"
                             rel="noopener noreferrer" style="text-decoration: none;">
@@ -102,19 +105,19 @@
             <form id="contactForm">
                 <div class="mb-3">
                     <label for="name" class="form-label">Your Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <input type="text" class="form-control" id="name" placeholder="Nama anda">
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Your Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    <input type="email" class="form-control" id="email" placeholder="Email anda">
                 </div>
                 <div class="mb-3">
                     <label for="subject" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                    <input type="text" class="form-control" id="subject" placeholder="Subjek">
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="6" placeholder="Enter your message"></textarea>
+                    <textarea class="form-control" id="message" rows="6" placeholder="Ketik pesanmu disini"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
             </form>
@@ -140,7 +143,7 @@
             whatsappMessage += "Message: " + message;
 
             // Open WhatsApp with the formatted message
-            window.open("https://wa.me/+nomoranda?text=" + whatsappMessage, "_blank");
+            window.open("https://wa.me/+6287837816887?text=" + whatsappMessage, "_blank");
         });
     </script>
 </body>

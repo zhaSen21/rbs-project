@@ -20,10 +20,10 @@
                             lainnya. Ayo daftar sekarang!</p>
                         @guest
                             <div class="btn-container me-5">
-                                <a href="{{ route('signup') }}" class="btn btn-primary rounded-pill btn-lg ">Daftar</a>
+                                <a href="{{ route('signup') }}" class="btn btn-primary rounded-pill btn-lg ">Buat Akun</a>
                                 <div class="spacerbtn"></div>
                                 <a href="{{ route('login') }}"
-                                    class="btn btn-outline-primary rounded-pill btn-lg ">Login</a>
+                                    class="btn btn-outline-primary rounded-pill btn-lg ">Masuk</a>
                             </div>
                         @endguest
                     </div>

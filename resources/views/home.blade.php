@@ -18,7 +18,10 @@
                         <h1 class="hero-text"><strong>Berhasil bersama, belajar bahagia</strong></h1>
                         <p class="hero-subtext">Di Rumah Belajar Spirit, dapatkan bahan ajar lengkap serta fasilitas
                             lainnya. Ayo daftar sekarang!</p>
-
+                        <div class="btn-container me-5">
+                            <a href="{{ route('pendaftaran') }}" class="btn btn-primary rounded-pill btn-lg ">Daftar
+                                Disini!</a>
+                        </div>
 
                     </div>
                     <div class="col-md-6 images-section d-flex align-items-center justify-content-center">
